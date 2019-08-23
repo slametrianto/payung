@@ -85,7 +85,7 @@
                                         <div class="feature-icon center-block">
                                             <i class="fa fa-star"></i>
                                         </div>
-                                    </div> <!--  end of /.feature-icon-box  -->
+                                    </div> 
                                     <div class="feature-info">
                                         <h3 class="feature-heading">MISI</h3>
                                         <p class="feature-description">
@@ -165,11 +165,12 @@
                             
                     </div>
                 </section>   -->
+
+
                 <!--   end of portfolio section  -->
-
-
                 <!-- begin twitter-feed section -->
-                <section class="twit-feed">
+                
+                <!-- <section class="twit-feed">
                     <div class="twit-feed-wrapper">
                         <div class="container">
                             <div class="row">
@@ -201,109 +202,28 @@
                             </div>
                         </div>
                     </div>
-                </section> <!--   end of /.twit-feed section  -->
+                </section>  -->
 
+      <section id="clients" class="wow fadeInUp">
+      <div class="container">
 
+        <header class="section-header">
+          <h3>Our Clients</h3>
+        </header>
 
-             <!--    <section class="bg-light-gray">
-                    <div class="container">
+        <div class="owl-carousel clients-carousel">
+          <img src="<?php echo base_url(); ?>assets/foto/clients/client-1.png" alt="">
+          <img src="img/clients/client-2.png" alt="">
+          <img src="img/clients/client-3.png" alt="">
+          <img src="img/clients/client-4.png" alt="">
+          <img src="img/clients/client-5.png" alt="">
+          <img src="img/clients/client-6.png" alt="">
+          <img src="img/clients/client-7.png" alt="">
+          <img src="img/clients/client-8.png" alt="">
+        </div>
 
-                        <div class="headline text-center">
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-3">
-                                    <h2 class="section-title">affordable pricing</h2>
-                                    <p class="section-sub-title">
-                                        absolutely stunning design &amp; functionality
-                                    </p> 
-                                </div>
-                            </div>
-                        </div> 
-
-
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="price-box">
-                                    <h3>Standard</h3>
-                                    <div class="price-info">
-
-                                        <span>15 Projects</span>
-                                        <span>30 GB Storage</span>
-                                        <span>Ultimate Data Transfer</span>
-                                        <span>50 GB Bandwith</span>
-                                        <span>Enhanced Security</span>
-                                        <span>24/7 Support</span>
-
-                                        <p class="price"><sup>$</sup><span>25</span>/MO</p>
-
-                                    </div> 
-
-                                    <a href="#" class="btn pricing-btn">Get Started</a>
-                                </div> 
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="price-box">
-                                    <h3>Business</h3>
-                                    <div class="price-info">
-
-                                        <span>15 Projects</span>
-                                        <span>30 GB Storage</span>
-                                        <span>Ultimate Data Transfer</span>
-                                        <span>50 GB Bandwith</span>
-                                        <span>Enhanced Security</span>
-                                        <span>24/7 Support</span>
-
-                                        <p class="price"><sup>$</sup><span>35</span>/MO</p>
-
-                                    </div> 
-                                    <a href="#" class="btn pricing-btn">Get Started</a>
-                                </div> 
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="price-box">
-                                    <h3>Premium</h3>
-                                    <div class="price-info">
-
-                                        <span>15 Projects</span>
-                                        <span>30 GB Storage</span>
-                                        <span>Ultimate Data Transfer</span>
-                                        <span>50 GB Bandwith</span>
-                                        <span>Enhanced Security</span>
-                                        <span>24/7 Support</span>
-
-                                        <p class="price"><sup>$</sup><span>45</span>/MO</p>
-
-                                    </div> 
-
-                                    <a href="#" class="btn pricing-btn">Get Started</a>
-                                </div> 
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="price-box">
-                                    <h3>Ultimate</h3>
-                                    <div class="price-info">
-
-                                        <span>15 Projects</span>
-                                        <span>30 GB Storage</span>
-                                        <span>Ultimate Data Transfer</span>
-                                        <span>50 GB Bandwith</span>
-                                        <span>Enhanced Security</span>
-                                        <span>24/7 Support</span>
-
-                                        <p class="price"><sup>$</sup><span>55</span>/MO</p>
-
-                                    </div> 
-
-                                    <a href="#" class="btn pricing-btn">Get Started</a>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-             
-
+      </div>
+    </section>
 
 
                 <!--  begin testimonial section  -->

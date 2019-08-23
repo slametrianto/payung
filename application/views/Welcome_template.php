@@ -120,23 +120,9 @@
                             
             </div> <!-- end of /.main-content -->
 
-            <footer>
+             <!-- <footer>
                 <div class="container">
                     <div class="row">
-
-                        <!-- useful links -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Useful Links</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="https://www.facebook.com/samuel.sitanggang.7587" class="btn btn-info" target="_blank"><font color="white">Facebook Pengurus</font></a></li>
-                                      <li><a href="https://www.facebook.com/pdtssitanggang.sth" class="btn btn-success" target="_blank"><font color="white">Facebook Yayasan</font></a></li>
-                                    <li><a href="https://www.instagram.com/panti_asuhan_ecclesia" class="btn btn-danger" target="_blank"><font color="white">Instagram</font></a></li>
-                                </div>
-                            </ul>
-                        </div>
-
-                        <!-- recent news -->
                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
                             <h4>Recent News</h4>
                            <?php foreach($article_recent as $recent){ ?>
@@ -154,12 +140,11 @@
                                         <p class="news-date"><?php echo $recent["date_post"]; ?></p>
                                     </div>
                                 </div>
-                            </div> <!-- /.footer-news -->
+                            </div> 
                             <?php } ?>
-                            <!-- /.footer-news -->
-                        </div> <!-- /.footer-widget -->
+                        </div> 
 
-                        <!-- news-letter -->
+                        
                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
                             <h4>Recent Comment</h4>
 
@@ -173,9 +158,9 @@
                                
                             </div> <?php } ?>
                             <p><font color="white"><i><code>Email tidak akan ditampilkan</code></i></font></p>
-                        </div> <!-- /.footer-widget -->
+                        </div> 
 
-                        <!-- about avada agency -->
+                    
                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
                             <h4> Join Us On Facebook</h4>
                             <div class="row">
@@ -187,47 +172,97 @@
                 js = d.createElement(s); js.id = id;
                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
                 fjs.parentNode.insertBefore(js, fjs);
-              }(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="https://www.facebook.com/Panti-Asuhan-Ecclesia-382804748843528/" data-width="700" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div><!-- /.footer-share-button -->
+              }(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="https://www.facebook.com/Panti-Asuhan-Ecclesia-382804748843528/" data-width="700" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
                                 </div>
                             </div>
-                        </div> <!-- /.footer-widget -->
+                        </div> 
 
                     </div>
                 </div>
-            </footer>
+            </footer> -->
 
 
-            <!-- footer-navigation start -->  
+    <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>PT. Payung Anak Bangsa</h3>
+            <p>Memberikan solusi IT yang cepat dan terpercaya ,sejalan dengan bisnis dan <br> 
+             strategi perusahaan anda.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Profil</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Tentang Kami</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Berita</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Kontak Kami</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Jakarta, <br>
+              Indonesia<br>
+              
+              <strong>Phone:</strong> xxxxxxxx<br>
+              <strong>Email:</strong> xxxxxxxxxxxx<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Solusi untuk infrastruktur IT</h4>
+            <p> Solusi Infrastruktur terbaik dan terhandal yang menjadi bagian penting dari bisnis anda.</p>
+            <!-- <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+            
             <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
                 <div class="container">
-                    
                     <div class="navbar-header">
-                        
-                        <!-- navbar logo -->
                         <div class="navbar-brand">
                             <span class="sr-only">&copy;PT. Payung Anak Bangsa</span>
                             <a href="<?php echo base_url(); ?>">
                                 &copy;PT. Payung Anak Bangsa 2019
                             </a>
                         </div>
-                        <!-- navbar logo -->
+                    </div>
 
-                    </div><!-- /.navbar-header -->
-
-                    <!-- nav links -->
+                    
                     <div class="collapse navbar-collapse" id="main-nav-collapse">
                         <ul class="nav navbar-nav navbar-right text-capitalize">
                             <li><a href="https://themewagon.com" target="_blank">
-                                <!-- <span>big thanks to THEMEWAGON team</span> -->
+                                
                             </a></li>
                         </ul>
-                    </div><!-- nav links -->
+                    </div>
                     
-                </div><!-- /.container -->
+                </div>
             </nav>
-            <!-- footer-navigation end -->
-            
-        </div> <!-- end of /#home-page -->
+        </div> 
 
         <!--  Necessary scripts  -->
 
